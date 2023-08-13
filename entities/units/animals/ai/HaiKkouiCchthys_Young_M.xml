@@ -1,0 +1,35 @@
+<BFTypedBinder binderType="HaiKkouiCchthys_Young_M">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Chondrichthyes>
+                  <Carcharhiniformes>
+                     <Carcharhinidae>
+                        <HaiKkouiCchthys>
+                           <HaiKkouiCchthys_Young>
+                              <HaiKkouiCchthys_Young_M/>
+                           </HaiKkouiCchthys_Young>
+                        </HaiKkouiCchthys>
+                     </Carcharhinidae>
+                  </Carcharhiniformes>
+               </Chondrichthyes>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\units\animals\HaiKkouiCchthys\HaiKkouiCchthys_Adult_F_icon.dds"/>
+         </UIAspect>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="HaiKkouiCchthys_Young_M"/>
+         </on>
+      </UIToggleButton>
+      <BFAIEntityDataShared b_Male="1"/>
+   </shared>
+</BFTypedBinder>
